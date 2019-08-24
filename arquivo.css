@@ -2,9 +2,16 @@ body {
 }
 
 div#wrap {
+    width: 1020px;
+    background: orange;
+    margin: auto;
 }
 
 header {
+    width: 1020px;
+    height: 140px;
+    margin: auto;
+    background: gainsboro;
 }
 
 div#logo {
@@ -36,18 +43,6 @@ div#carrinho {
 
 div#carrinho img {
     width: 70px;
-}
-
-div#wrap {
-    background: orange;
-    width: 100%;
-}
-
-header {
-    width: 1020px;
-    height: 140px;
-    margin: auto;
-    background: gainsboro;
 }
 
 div#logo {
@@ -83,4 +78,21 @@ div#search button {
 div#links {
     display: grid;
     margin-top: 51px;
+}
+
+.bloco{
+    background-color: aquamarine;
+    height: 327px;
+    margin-top: 60px;
+}
+
+.subBloco{
+    width: 20%;
+    height: 85%;
+    float: left;
+   
+}
+
+article h2{
+    
 }
