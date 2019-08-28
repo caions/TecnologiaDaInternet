@@ -89,7 +89,7 @@ div#links {
 
 .subBloco{
     width: 20%;
-    height: 85%;
+    height: 100%;
     float: left;
     
 }
@@ -117,4 +117,9 @@ article h2{
     height: 100%;
     float: left;
     
+}
+
+.card{
+    width: 100%;
+    height: 50%;
 }
