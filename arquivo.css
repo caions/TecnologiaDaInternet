@@ -82,7 +82,7 @@ div#links {
 }
 
 .bloco{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     height: 327px;
     margin-top: 60px;
 }
@@ -94,11 +94,15 @@ div#links {
     
 }
 
-article h2{
+.subBloco img{
+    width: 75%;
+    display: block;
+    margin: auto;   
+}
 
-    background-color: blueviolet;
- 
-    
+article h2{
+    background-color: #d2a0ff;
+    font-size: 25px;
 }
 
 .footerBloco{
