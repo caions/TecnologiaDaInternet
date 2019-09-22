@@ -31,9 +31,16 @@
             </div>
         </header>
         <article>
-
+            <div>
+                <select name="comboBox" id="" onchange="location = this.value">
+                    <option value="index.html#telefonia">Telefonia</option>
+                    <option value="index.html#informatica">Informatica</a></option>
+                    <option value="index.html#eletronicos">Eletrônicos</option>
+                    <option value="index.html#games">Games</option>
+                </select>
+            </div>
             <div class="bloco">
-                <h2>Telefonia</h2>
+                <h2 id="telefonia">Telefonia</h2>
                 <a href="#">
                         <div class=subBloco>
                                 <img src="imagens/produtos/celular1.jpg" alt="celular1">
@@ -44,9 +51,9 @@
                                 <span class="DE"> De: R$ 899,00<br></span>
                                 <span class="POR">Por R$ 699,00<br></span>                              
                                 em 10x de R$ 69,90 s/juros<br>
+                                <a href="#"></a>
                                 </div>
-                        </div>
-                        
+                        </div>                      
                 </a>
                 <a href="#">
                         <div class=subBloco>
@@ -60,6 +67,7 @@
                                     </div>
                         </div>
                 </a>
+                <section id = "conteudoTelefonia"> </section>
                 <a href="#">
                         <div class=subBloco>
                                 <img src="imagens/produtos/celular3.jpg" alt="celular3">
@@ -72,6 +80,7 @@
                                 </div>
                         </div>
                 </a>
+                <section id = "conteudoInformatica"> </section>
                 <a href="#">
                         <div class=subBloco>
                                 <img src="imagens/produtos/celular4.jpg" alt="celular4">
@@ -84,6 +93,7 @@
                                 </div>
                         </div>
                 </a>
+                <section id = "conteudoEletronicos"> </section>
                 <a href="#">
                         <div class=subBloco>
                                 <img src="imagens/produtos/celular5.jpg" alt="celular5">
@@ -96,9 +106,10 @@
                                 </div>
                         </div>
                 </a>
+                <section id = "conteudoGames"> </section>
             </div>
             <div class="bloco">
-                <h2>Informática</h2>
+                <h2 id = "informatica">Informática</h2>
                 <a href="#">
                     <div class=subBloco>
                         <img src="imagens/produtos/informatica1.jpg" alt="">
@@ -156,7 +167,7 @@
                 </a>
             </div>
             <div class="bloco">
-                <h2>Eletrônicos</h2>
+                <h2 id = "eletronicos">Eletrônicos</h2>
                  <a href="#">
                     <div class=subBloco>
                         <img src="imagens/produtos/tv1.jpg" alt="">
@@ -218,7 +229,7 @@
                 </a>
             </div>
             <div class="bloco">
-                <h2>Games</h2>
+                <h2 id="games" >Games</h2>
                 <a href="#">
                     <div class=subBloco>
                         <img src="imagens/produtos/games1.jpg" alt="">
@@ -345,7 +356,7 @@
                         <li>Conheça a Nagem</li>
                         <li>Nossas Lojas</li>
                         <li>Envie seu Currículo</li>
-                        <li>Fale conosco</li>
+                        <li><a href="mailto:pedroaraujonogueirati@gmail.com">Fale conosco</a></li>
                         <li>Política de Privacidade</li>
                         <li>Política de Troca e Devolução</li>
                         <li>Cadastro</li>
