@@ -2,15 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="arquivo.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="arquivo.css">
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    
     <title>:: E-Comerce ::</title>
 </head>
 <body>
     <div id="wrap">
         <header>
             <div id="logo">
-                <img src="imagens/logo2.png" alt="logo">
+                <a href="index.html"><img src="imagens/logo2.png" alt="logo"></a>
             </div>
             <div id="search">
                 <input type="text">
@@ -19,15 +25,14 @@
             <div id="usuario">
                 <img src="imagens/user.png  " alt="user">
                 <div id="links">
-                    <a href="#">Login</a>
-                    <a href="#">Cadastre-se</a>
+                    <a href="login.html">Login</a>
+                    <a href="login.html">Cadastre-se</a>
                 </div>
             </div>
             
             <div id="carrinho">
                 <img src="imagens/carrinho.png" alt="carrinho">
                 <p>Meu carrinho</p>
-           
             </div>
         </header>
         <article>
@@ -46,13 +51,12 @@
                                 <img src="imagens/produtos/celular1.jpg" alt="celular1">
 
                                 <div class=card>
-                                Smartphone Motorola Moto G7 Play 32GB Dual Chip Android Pie - 9.0 Tela 5.7" 1.8 GHz Octa-Core 4G Câmera 13MP - Indigo<br>
+                                    Smartphone Motorola Moto G7 Play 32GB Dual Chip Android Pie - 9.0 Tela 5.7" 1.8 GHz Octa-Core 4G Câmera 13MP - Indigo
 
-                                <span class="DE"> De: R$ 899,00<br></span>
-                                <span class="POR">Por R$ 699,00<br></span>                              
-                                em 10x de R$ 69,90 s/juros<br>
-                                <a href="#"></a>
-                                </div>
+                                    <br><span class="DE"> De: R$ 899,00</span>
+                                    <br><span class="POR">Por R$ 699,00</span>                              
+                                    em 10x de R$ 69,90 s/juros
+                                    </div>
                         </div>                      
                 </a>
                 <a href="#">
@@ -353,7 +357,7 @@
                         <h4>SOBRE</h4>
                         <br>
                         <ul>
-                        <li>Conheça a Nagem</li>
+                        <li>Conheça a Loja</li>
                         <li>Nossas Lojas</li>
                         <li>Envie seu Currículo</li>
                         <li><a href="mailto:pedroaraujonogueirati@gmail.com">Fale conosco</a></li>

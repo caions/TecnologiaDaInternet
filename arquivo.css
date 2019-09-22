@@ -26,10 +26,8 @@ header p{
     margin-top: 29px;
 }
 
-div#logo {
-}
-
-div#logo img {
+div#logo img{
+    width: 200px;
 }
 
 div#usuario {
@@ -62,9 +60,6 @@ div#logo {
     float: left;
 }
 
-div#logo img {
-    width: inherit;
-}
 
 div#search {
     float: left;
@@ -74,14 +69,14 @@ div#search {
 
 div#search input {
     width: 76%;
-    height: 23px;
+    height: 29px;
     margin: 55px 0px 0px 9px;
     border-radius: 12px;
     outline: none;
 }
 
 div#search button {
-    width: 18%;
+    width: 20%;
     height: 30px;
     border-radius: 11px;
     outline: none;
@@ -98,6 +93,7 @@ div#links {
     margin-top: 40px;
     box-shadow: 0 3px 8px -2px rgba(0,0,0,.4);
     border-radius: 18px;
+    overflow: hidden;
 }
 
 .bloco h2{
@@ -147,12 +143,14 @@ article h2{
 
 .footerBloco{
     background-color: #a5a5a5;
-    height: 285px;
+    height: 282px;
     margin-top: 30px;
+    padding-top: 25px;
+    padding-right: 5px;
 }
 
 .footerSubBloco{
-    width: 30%;
+    width: 29%;
     height: 100%;
     float: left;
     margin-left: 34px;
@@ -166,6 +164,7 @@ article h2{
     margin-top:15px;
     font-size: 15px;
     margin-left: 2px;
+    border: none;
 }
 
 .POR{

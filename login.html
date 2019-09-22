@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="arquivo.css">
+    
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+        <div id="wrap">
+            <header>
+                    <div id="logo">
+                            <a href="index.html"><img src="imagens/logo2.png" alt="logo"></a>
+                        </div>
+                        <div id="search">
+                            <input type="text">
+                            <button>Pesquisar</button>
+                        </div>
+                        <div id="usuario">
+                            <img src="imagens/user.png  " alt="user">
+                            <div id="links">
+                                <a href="login.html">Login</a>
+                                <a href="#">Cadastre-se</a>
+                            </div>
+                        </div>
+                        
+                        <div id="carrinho">
+                            <img src="imagens/carrinho.png" alt="carrinho">
+                            <p>Meu carrinho</p>
+                        </div>
+            </header>
+        </div>
+        <div class="container">    
+                <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+                    <div class="panel panel-info" >
+                            <div class="panel-heading">
+                                <div class="panel-title">Sou cadastrado</div>
+                                <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Esqueci minha senha</a></div>
+                            </div>     
+        
+                            <div style="padding-top:30px" class="panel-body" >
+        
+                                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                    
+                                <form id="loginform" class="form-horizontal" role="form">
+                                            
+                                    <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="email">                                        
+                                            </div>
+                                        
+                                    <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                                <input id="login-password" type="password" class="form-control" name="password" placeholder="senha">
+                                            </div>    
+        
+                                        <div style="margin-top:10px" class="form-group">
+                                            <!-- Button -->
+        
+                                            <div class="col-sm-12 controls">
+                                              <a id="btn-login" href="#" class="btn btn-success">Entrar  </a>
+                                              <a id="btn-fblogin" href="#" class="btn btn-primary">Conecte com o Facebook</a>
+        
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="form-group">
+                                            <div class="col-md-12 control">
+                                                <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                                    Não sou cadastrado 
+                                                <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                                                        Faça agora mesmo o seu cadastro, é simples e rápido!                                                </a>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </form>     
+        
+        
+        
+                                </div>                     
+                            </div>  
+                </div>
+                <div id="signupbox" style="display:none; margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <div class="panel-title">Não sou cadastrado</div>
+                                    <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sou Cadastrado</a></div>
+                                </div>  
+                                <div class="panel-body" >
+                                    <form id="signupform" class="form-horizontal" role="form">
+                                        
+                                        <div id="signupalert" style="display:none" class="alert alert-danger">
+                                            <p>Error:</p>
+                                            <span></span>
+                                        </div>
+                                            
+                                        
+                                          
+                                        <div class="form-group">
+                                            <label for="email" class="col-md-3 control-label">Email</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="email">
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="form-group">
+                                            <label for="firstname" class="col-md-3 control-label">Nome</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="firstname">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="password" class="col-md-3 control-label">Senha</label>
+                                            <div class="col-md-9">
+                                                <input type="password" class="form-control" name="passwd">
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="form-group">
+                                            <label for="icode" class="col-md-3 control-label">CPF</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="icode" placeholder="">
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-group">
+                                            <!-- Button -->                                        
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i>Cadastrar</button>
+                                                <span style="margin-left:8px;">ou</span>  
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
+                                            
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>Conecte com o Facebook</button>
+                                            </div>                                           
+                                                
+                                        </div>
+                                        
+                                        
+                                        
+                                    </form>
+                                 </div>
+                            </div>
+        
+                       
+                       
+                        
+                 </div> 
+            </div>
+            <div id="wrap">
+            <footer>
+            <div class="footerBloco">
+                <div class="footerSubBloco">
+                        <h4>DEPARTAMENTOS</h4>
+                        <ul>
+                            <br>
+                            <li>Automação</li>
+                            <li>Automotivo</li>
+                            <li>Beleza & Saúde</li>
+                            <li>Brinquedos</li>
+                            <li>Câmeras Digitais</li>
+                            <li>Casa & Jardim</li>
+                            <li>Celular & Telefone</li>
+                            <li>Computadores</li>
+                            <li>Eletrônicos</li>
+                            <li>Eletroportáteis</li>
+                            <li>Esporte e Lazer</li>
+                            <li>Gamer</li>
+                            <li>Hardware</li>
+                        </ul>
+                </div>
+                <div class="footerSubBloco">
+                        <h4>SOBRE</h4>
+                        <br>
+                        <ul>
+                        <li>Conheça a Nagem</li>
+                        <li>Nossas Lojas</li>
+                        <li>Envie seu Currículo</li>
+                        <li><a href="mailto:pedroaraujonogueirati@gmail.com">Fale conosco</a></li>
+                        <li>Política de Privacidade</li>
+                        <li>Política de Troca e Devolução</li>
+                        <li>Cadastro</li>
+                        <li>Cód. Defesa do Consumidor</li>  
+                        </ul>
+                </div>
+                <div class="footerSubBloco">
+                        <h4>ATENDIMENTO</h4>
+                        <br>
+                        <ul>
+                        <li>Horário de atendimento: 09:00 às 19:00 de segunda à sexta-feira, horário de Brasília (exceto feriados).</li>
+                        <li>Endereço: Rua das Oliveiras, 10115478</li>
+                        <li>Centro - Limeira (DE) - CEP: 9865-581</li>
+                        <li>Central SAC: (10) 63544-5400</li>
+                        <li>E-mail: atendimento@lojalocal.com.br Recepção de Fax: (10) 63544-5400</li>
+                        </ul>
+                </div>
+                
+            </div>
+        </footer>
+        </div>
+            
+</body>
+</html>
