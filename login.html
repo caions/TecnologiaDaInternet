@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
     <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="arquivo.css">
     
     <script src="jquery-3.4.1.min.js"></script>
     <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+
+    <title>:: Login ::</title>
     
 </head>
 <body>
         <div id="wrap">
             <header>
-                    <div id="logo">
-                            <a href="index.html"><img src="imagens/logo2.png" alt="logo"></a>
-                        </div>
-                        <div id="search">
-                            <input type="text">
-                            <button>Pesquisar</button>
-                        </div>
-                        <div id="usuario">
-                            <img src="imagens/user.png  " alt="user">
-                            <div id="links">
-                                <a href="login.html">Login</a>
-                                <a href="#">Cadastre-se</a>
-                            </div>
-                        </div>
-                        
-                        <div id="carrinho">
-                            <img src="imagens/carrinho.png" alt="carrinho">
-                            <p>Meu carrinho</p>
-                        </div>
+                <div id="logo">
+                    <a href="index.html"><img src="imagens/logo.png" alt="logo"></a>
+                </div>
+                <div id="search">
+                    <input type="text">
+                    <button>Pesquisar</button>
+                </div>
+                <div id="usuario">
+                    <img src="imagens/user.png  " alt="user">
+                    <div id="links">
+                        <a href="login.html">Login</a>
+                        <a href="login.html">Cadastre-se</a>
+                    </div>
+                </div>
+                
+                <div id="carrinho" onclick="clickDoCarrinho()">
+                    <a href="carrinhoDeCompras.html"><img src="imagens/carrinho.png" alt="carrinho"></a>
+                    <div id="loginLink"><a href="carrinhoDeCompras.html">Meu Carrinho</a></div>
+            
+                </div>
             </header>
         </div>
         <div class="container">    
