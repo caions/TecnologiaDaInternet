@@ -1,5 +1,5 @@
 var celular1 = {
-    descricao: 'moto g7',
+    descricao: 'Moto g7',
     descricaoDestalhada: 'Smartphone Motorola Moto G7 Play 32GB Dual Chip Android Pie - 9.0 Tela 5.7" 1.8 GHz Octa-Core 4G Câmera 13MP - Indigo',
     precoDe: 899.00,
     precoPor: 699.00,
@@ -26,7 +26,7 @@ var celular3 = {
 }
 
 var celular4 = {
-    descricao: 'moto g7',
+    descricao: 'Samsung Galaxy J4',
     descricaoDestalhada: 'Smartphone Motorola Moto G7 Play 32GB Dual Chip Android Pie - 9.0 Tela 5.7" 1.8 GHz Octa-Core 4G Câmera 13MP - Indigo',
     precoDe: 899,
     precoPor: 699,
@@ -35,7 +35,7 @@ var celular4 = {
 }
 
 var celular5 = {
-    descricao: 'moto g7',
+    descricao: 'Samsung Galaxy A10',
     descricaoDestalhada: 'Smartphone Motorola Moto G7 Play 32GB Dual Chip Android Pie - 9.0 Tela 5.7" 1.8 GHz Octa-Core 4G Câmera 13MP - Indigo',
     precoDe: 899,
     precoPor: 699,
