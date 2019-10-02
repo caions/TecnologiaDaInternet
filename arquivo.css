@@ -9,12 +9,12 @@ div#wrap {
     margin: auto;
 }
 
-header {
+/*header {
     width: 1020px;
     height: 140px;
     margin: auto;
     background: #569cd4;
-}
+}*/
 
 header a{
     color: white;
@@ -23,10 +23,6 @@ header a{
 
 header p{
     color:white;
-}
-
-div#logo img{
-    width: 190px;
 }
 
 div#usuario {
@@ -42,14 +38,9 @@ div#usuario img {
     margin: 15px 0px 0px 10px;
 }
 
-div#carrinho {
-    width: 228px;
-    float: left;
-    margin-top: 0px;
-    padding-top: 30px;
-    display: flex;
+div#login {
+    margin-right: 200px;
 }
-
 div#loginLink {
     margin-top: 30px;
 }
@@ -140,16 +131,21 @@ div#links {
 }
 
 article h2{
-    background-color: #569CD4;
+    background-color: #2874f0;
     font-size: 25px;
 }
 
 .footerBloco{
-    background-color: #a5a5a5;
+    background-color: #2874f0;
     height: 282px;
     margin-top: 30px;
     padding-top: 25px;
     padding-right: 5px;
+    color: white;
+}
+
+.footerBloco a{
+    color: white;
 }
 
 .footerSubBloco{
@@ -201,14 +197,16 @@ button.css3button {
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
+/* nav bar css */
+
 #flipkart-navbar {
     background-color: #2874f0;
     color: #FFFFFF;
 }
 
-.row1{
+.row1 {
     padding-top: 10px;
-    padding-right: 50px;
+    padding-right: 170px;
 }
 
 .row2 {
@@ -221,6 +219,7 @@ button.css3button {
     border: 0 none;
     outline: 0 none;
     font-size: 15px;
+    color: black;
 }
 
 .flipkart-navbar-button {
@@ -229,7 +228,7 @@ button.css3button {
     border-radius: 0 2px 2px 0;
     color: #565656;
     padding: 10px 0;
-    height: 43px;
+    height: 39px;
     cursor: pointer;
 }
 
@@ -274,6 +273,7 @@ button.css3button {
     color: #fff;
     line-height: 12px;
     margin-left: 10px;
+    display: none;
 }
 
 .upper-links {
@@ -413,4 +413,10 @@ button.css3button {
 .sidenav-heading{
     font-size: 36px;
     color: #fff;
+}
+
+img {
+    width: 150px;
+    margin-top: -28px;
+    margin-bottom: -18px;
 }

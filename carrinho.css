@@ -9,3 +9,7 @@ th, td {
 thead tr{
     border-bottom: solid 3px #444;
 }
+
+table{
+    margin: auto;
+}
