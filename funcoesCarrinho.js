@@ -8,11 +8,14 @@ for(let i = 0; i < arrayDeProdutos.length; i++){
     if(arrayDeProdutos[i].quantidadeItensComprados > 0){
         var produtoTr = document.createElement("tr")
         var descricaoTd = document.createElement("td")
+        descricaoTd.setAttribute("id","descricao")
         var precoTotalTd = document.createElement("td")
+        precoTotalTd.setAttribute("id","preco")
         var quantidadeItensTd = document.createElement("td")
+        quantidadeItensTd.setAttribute("id","quantidade")
         
         descricaoTd.textContent = arrayDeProdutos[i].descricao
-        precoTotalTd.innerHTML = (arrayDeProdutos[i].quantidadeItensComprados * arrayDeProdutos[i].precoPor)
+        precoTotalTd.innerHTML = ('R$ '+arrayDeProdutos[i].quantidadeItensComprados * arrayDeProdutos[i].precoPor)
         quantidadeItensTd.innerHTML = arrayDeProdutos[i].quantidadeItensComprados
 
         produtoTr.appendChild(descricaoTd)

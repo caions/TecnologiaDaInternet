@@ -1,9 +1,26 @@
 body table {
-    border-collapse: collapse;
+    height: 370px;
+    margin-top: 1px;
+    box-shadow: 0 3px 8px -2px rgba(0,0,0,.4);
+    overflow: hidden;
+    
+}
+
+div#wrap {
+    width: 1020px;
+    /*background: orange;*/
+    margin: auto;
+}
+
+th{
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 th, td {
-    padding: 30px;
+    padding: 4px;
+    padding-bottom: 10px;
 }
 
 thead tr{
@@ -12,4 +29,34 @@ thead tr{
 
 table{
     margin: auto;
+}
+
+h1{
+
+}
+
+#preco{
+   
+}
+
+#quantidade{
+    align-content: right;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    margin-top: -28px;
+    margin-bottom: -18px;
+}
+
+h2{
+    background-color: #2874f0;
+    margin-top: 29px;
+    font-size: 30px;
+    width: 404px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
 }
