@@ -4,16 +4,8 @@ body {
 
 div#wrap {
     width: 1020px;
-    /*background: orange;*/
     margin: auto;
 }
-
-/*header {
-    width: 1020px;
-    height: 140px;
-    margin: auto;
-    background: #569cd4;
-}*/
 
 header a{
     color: white;
@@ -81,7 +73,6 @@ div#links {
 }
 
 .bloco{
-    /*background-color: aquamarine;*/
     height: 370px;
     margin-top: 40px;
     box-shadow: 0 3px 8px -2px rgba(0,0,0,.4);
@@ -372,93 +363,8 @@ button.css3button {
     }
 }
 
-/*Sidenav*/
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    box-shadow: 0 4px 8px -3px #555454;
-    padding-top: 0px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    color: #fff;        
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav a {font-size: 18px;}
-}
-
-.sidenav-heading{
-    font-size: 36px;
-    color: #fff;
-}
-
 img {
     width: 150px;
     margin-top: -28px;
     margin-bottom: -18px;
-}
-
-/* --------------------------------*/
-.param {
-    margin-bottom: 7px;
-    line-height: 1.4;
-}
-.param-inline dt {
-    display: inline-block;
-}
-.param dt {
-    margin: 0;
-    margin-right: 7px;
-    font-weight: 600;
-}
-.param-inline dd {
-    vertical-align: baseline;
-    display: inline-block;
-}
-
-.param dd {
-    margin: 0;
-    vertical-align: baseline;
-} 
-
-.shopping-cart-wrap .price {
-    color: #007bff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 5px;
-    display: block;
-}
-var {
-    font-style: normal;
-}
-
-.media img {
-    margin-right: 1rem;
-}
-.img-sm {
-    width: 90px;
-    max-height: 75px;
-    object-fit: cover;
 }
